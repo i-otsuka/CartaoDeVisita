@@ -9,7 +9,7 @@
     --cor4:#3C3C3B;
     --font-titles:'Bebas Neue', cursive;
     --font-normal:'Roboto', sans-serif;
-    --sombras:#4d4b4a4a;
+    --sombras:5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 *{
@@ -20,6 +20,7 @@
 }
 
 body{
+    background-image: url(imagens/bg-body.png);
     background-color: var(--cor3);
 }
 
@@ -28,8 +29,10 @@ body{
     height: 720px;
     background-color: var(--cor1);
     border: solid 1px var(--cor2);
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 120px 190px;
+    box-shadow: var(--sombras);
+    border-radius: 15px;
 }
 
 .caixa-principal img{
