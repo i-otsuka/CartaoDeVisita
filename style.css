@@ -6,6 +6,7 @@
     --cor1:#FFFFFF;
     --cor2:#EDEDED;
     --cor3:#4D4B4A;
+    --cor4:#3C3C3B;
     --font-titles:'Bebas Neue', cursive;
     --font-normal:'Roboto', sans-serif;
     --sombras:#4d4b4a4a;
@@ -20,8 +21,8 @@
 
 body{
     background-color: var(--cor3);
-    
 }
+
 .caixa-principal{
     width: 1280px;
     height: 720px;
@@ -30,6 +31,7 @@ body{
     margin: 10px auto;
     padding: 120px 190px;
 }
+
 .caixa-principal img{
     float: right;
 }
@@ -48,6 +50,14 @@ body{
     color: var(--cor3);
     list-style: none;
     padding: 40px 0;
+}
+.caixa-principal a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+.caixa-principal a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
 }
 .caixa-principal p{
     font: 300 1.5em var(--font-normal);
